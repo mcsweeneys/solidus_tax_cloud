@@ -18,7 +18,7 @@ module SolidusTaxCloud
     end
 
     initializer 'solidus_tax_cloud.permitted_attributes' do |_app|
-      Spree::PermittedAttributes.product_attributes << :tax_cloud_tic
+      ::Spree::PermittedAttributes.product_attributes << :tax_cloud_tic
     end
   end
 end
