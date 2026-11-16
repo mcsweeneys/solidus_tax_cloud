@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'spree/core'
+require 'spree/permitted_attributes'
 require 'solidus_tax_cloud'
 
 module SolidusTaxCloud
